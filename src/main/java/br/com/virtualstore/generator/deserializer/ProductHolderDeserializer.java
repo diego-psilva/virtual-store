@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import br.com.virtualstore.model.ProductHolder;
+import br.com.virtualstore.repository.ProductRepository;
 import br.com.virtualstore.model.Product;;
 
 public class ProductHolderDeserializer extends JsonDeserializer<ProductHolder>{
