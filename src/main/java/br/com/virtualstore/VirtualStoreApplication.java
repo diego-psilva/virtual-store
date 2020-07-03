@@ -1,4 +1,4 @@
-package br.com.dataprev.virtualstore;
+package br.com.virtualstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

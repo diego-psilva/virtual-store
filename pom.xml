@@ -12,28 +12,29 @@
 	<artifactId>virtual-store</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>virtual-store</name>
-	<description>Demo project for Spring Boot</description>
-
+	<description>virtual store - API REST</description>
+	<packaging>jar</packaging>
 	<properties>
+	
 		<java.version>11</java.version>
+		<project.build.source.Encoding>UTF8</project.build.source.Encoding>
+		<project.reporting.outputEncoding>UTF8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
 
